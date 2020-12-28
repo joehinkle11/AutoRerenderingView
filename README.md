@@ -1,6 +1,6 @@
 # AutoRerenderingView
 
-A SwiftUI hack to force the underlying UIKit (or AppKit) view to be rebuilt from scatch
+A SwiftUI hack to force the underlying UIKit (or AppKit) view to be rebuilt from scratch
 
 Just pass a view that won't re-render when it's data changes along with a hash of the data it's using and the view will force refresh.
 
