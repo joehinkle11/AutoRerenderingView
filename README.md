@@ -18,3 +18,6 @@ struct Example: View {
 }
 
 ```
+
+
+Note, there is a variant that uses a timer, and I've found in some cases it works better. I recommend only using that version if the other doesn't work because everyone hates timer solutions.
